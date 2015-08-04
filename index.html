@@ -1,0 +1,36 @@
+---
+layout: default 
+---
+
+
+
+<main>
+
+    <ul class="posts">
+		{% for post in site.posts %}
+		<li> 
+		 <a href="{{ post.url }}">{{ post.title }}</a>
+		<span class="right date">{{ post.date | date_to_string }}</span>
+		</li>
+		{% endfor %}
+	</ul>
+
+
+    <hr>
+</main>
+
+
+
+	
+
+
+<!--<ul>
+        {% for post in site.posts %}
+        <li>
+            <p>
+                <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                <span class="right date">{{ post.date | date: "%b %-d, %Y" }}</span>
+            </p>
+        </li>
+        {% endfor %}
+    </ul>-->

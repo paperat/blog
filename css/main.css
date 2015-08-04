@@ -1,0 +1,135 @@
+---
+layout: null
+---
+
+{% include code.css %}
+
+
+
+*{
+    margin: 0;
+    
+}
+
+
+html, body{
+    height: 100%;
+}
+
+body{
+    background-color: ghostwhite;
+    font-size: 16px;
+    font-family: "Source Code Pro";
+    
+}
+
+.brand-logo{
+    font-size: 16px;
+}
+
+.nav-wrapper{
+    background-color: #00838f;
+    
+}
+
+.nav-wrapper .brand-logo{
+    font-size: 21px;
+}
+
+.brand-logo{
+    margin-left: 10px;
+    
+}
+
+.right{
+    margin-right: 10px;
+}
+
+
+
+nav ul li:hover,
+nav ul li.active {
+    background-color: transparent;
+}
+
+.nav-wrapper a{
+    font-size: 17px;
+}
+
+.nav-wrapper a:hover{
+    color: white;
+}
+
+a:hover{
+   color:#00acc1; 
+}
+
+.container{
+    max-width: 42em;
+    margin-top: 4em;
+}
+
+main{
+    min-height: 100%;
+    margin-bottom: -64px;
+    margin-left: 10px;
+    margin-top: 3em;
+    margin-right: 10px;
+}
+
+main:after{
+    content: " ";
+    display: block;
+}
+
+
+ul li{
+    padding-bottom: .5em;
+}
+
+
+footer{
+    height: 64px;
+    line-height: 64px;
+}
+
+.post{
+    margin-top: 3em;
+    margin-left: 10px;
+}
+
+.post-meta{
+    padding-bottom: 10px;
+    
+    
+}
+
+.page{
+    margin-left: 10px;
+}
+
+hr{
+    width: 100px;
+    height: 1px;
+    margin: 2rem auto;
+    background-color: #bbb;
+    border: 0;
+}
+
+.side-nav li{
+    margin-top: 50%;
+    text-align: center; 
+    -webkit-transition: padding .3s;
+}
+
+.side-nav li:hover{
+    background-color: #00838f;
+    margin-left: 7px;
+    margin-right: 7px;
+    border-radius: 25px;
+    -webkit-transition: border-radius .3s;
+}
+
+
+
+
